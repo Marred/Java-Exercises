@@ -27,6 +27,7 @@ public class BMI {
             weight = scanner.nextFloat();
         } catch (Exception e) {
             System.out.println("Incorrect input");
+            System.exit(0);
         }
 
         System.out.println("Please input your height in centimeters");
@@ -35,6 +36,7 @@ public class BMI {
             height = scanner.nextFloat() / 100;
         } catch (Exception e) {
             System.out.println("Incorrect input");
+            System.exit(0);
         }
 
         bmi = weight / (float) Math.pow(height, 2);

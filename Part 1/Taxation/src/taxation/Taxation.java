@@ -18,16 +18,17 @@ public class Taxation {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
-        int income = 0;
+        float income = 0;
         float tax;
         
         System.out.println("Please input your yearly income");
         
         try {
-            income = scanner.nextInt();
+            income = scanner.nextFloat();
         }
         catch(Exception e) {
             System.out.println("Incorrect input");
+            System.exit(0);
         }
         
         if(income<85528) {
@@ -37,7 +38,7 @@ public class Taxation {
             tax = 14839.02f+((income-85528)*0.32f);
         }
         
-        System.out.printf("The tax amount for your %d of income is %.2f", income, tax);
+        System.out.printf("The tax amount for your %.2f of income is %.2f", income, tax);
     }
     
 }
