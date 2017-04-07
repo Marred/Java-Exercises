@@ -41,7 +41,7 @@ public class DrawTree {
                 System.out.println(message);
                 input = scanner.nextInt();
                 if (input < 0) {
-                    System.out.println("The number must be higher than 0. Try again");
+                    System.out.println("The number must be bigger than 0. Try again");
                     continue;
                 }
                 return input;
