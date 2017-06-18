@@ -1,0 +1,6 @@
+This is some sample text, that I want this script to correct.  Let's see how  it works, shall we?
+This is some sample text, that I want this script to correct.  let's see how  it works, shall we?
+This is some sample text, that I want this script to correct.134let's see how it works, shall we?
+This is some sample text, that I want this script to correct. et's see how it works, shall we. 
+This is some sample text, that I want this script to correct.Let's see how it works, shall we. 
+This is some sample text, that I want this script to correct. Let's see how it works, shall we. 
